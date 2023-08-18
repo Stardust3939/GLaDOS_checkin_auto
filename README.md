@@ -1,10 +1,13 @@
 # GLaDOS 自动签到，实现无限白嫖
 
+fork自https://github.com/Stardust3939/GLaDOS_checkin_auto
+
+将推送服务商由Pushplus改成自己一直在用的server酱（sct.ftqq.com）
+
 原仓库地址：https://github.com/lukesyy/glados_automation
 
 复制了一个仓库，进行了些修改，防止原仓库被封
-fork自https://github.com/Stardust3939/GLaDOS_checkin_auto
-将推送服务商由Pushplus改成自己一直在用的server酱（sct.ftqq.com）
+
 环境变量：`GLADOS_COOKIE`（必要） 和 `PUSHPLUS_TOKEN`（非必要）
 
 `GLADOS_COOKIE`多个账号需使用 '&' 隔开，示例：cookie&cookie
